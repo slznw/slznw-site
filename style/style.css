@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 50%, rgba(0, 112, 255, 1) 100%);
+}
+
+header {
+    transform: translateY(-150%);
+    animation: ani 1s forwards;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+
+}
+
+header a {
+    float: right;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+header a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.logo {
+    padding: 10px;
+    position: relative;
+    right: -20px;
+}
+
+@keyframes ani {
+    0% {
+        transform: translateY(-150%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+footer {
+    transform: translateX(-150%);
+    animation: anim-cont-foot 1s forwards;
+    text-align: center;
+    color: rgb(126, 126, 126);
+}
+
+.content {
+    transform: translateX(-150%);
+    animation: anim-cont-foot 1s forwards;
+}
+
+@keyframes anim-cont-foot {
+    0% {
+        transform: translateX(-150%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
