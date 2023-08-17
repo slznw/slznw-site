@@ -45,7 +45,7 @@ body {
 }
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 800px) {
     .topnav a:not(:first-child) {
         display: none;
     }
@@ -56,7 +56,7 @@ body {
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 800px) {
     .topnav.responsive {
         position: relative;
     }
