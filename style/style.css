@@ -1,15 +1,25 @@
+/* Шрифт */
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
 
+/* Основные стили: цвет, форма, анимации и т.д */
+
 * {
-    margin: 0px;
-    padding: 0px;
     font-family: 'Ubuntu', sans-serif;
 }
 
 body {
-    background: rgb(2, 0, 36);
-    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 50%, rgba(0, 112, 255, 1) 100%);
+    background: #212121;
+    color: #E8A236;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    color: #f4143f;
+}
+
 
 .topnav {
     transform: translateY(-150%);
@@ -22,7 +32,7 @@ body {
 
 .topnav a {
     float: right;
-    color: #000000;
+    color: #E8A236;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -44,6 +54,23 @@ body {
     right: -20px;
 }
 
+footer {
+    transform: translateX(-150%);
+    animation: anim-cont-foot 1s forwards;
+    text-align: center;
+    color: rgb(126, 126, 126);
+}
+
+.content {
+    transform: translateX(-150%);
+    animation: anim-cont-foot 1s forwards;
+}
+
+.imgur-embed-pub {
+    margin-left: auto;
+}
+
+/* Адаптивность */
 
 @media screen and (max-width: 800px) {
     .topnav a:not(:first-child) {
@@ -74,6 +101,8 @@ body {
     }
 }
 
+/* Анимации */
+
 @keyframes ani {
     0% {
         transform: translateY(-150%);
@@ -84,17 +113,6 @@ body {
     }
 }
 
-footer {
-    transform: translateX(-150%);
-    animation: anim-cont-foot 1s forwards;
-    text-align: center;
-    color: rgb(126, 126, 126);
-}
-
-.content {
-    transform: translateX(-150%);
-    animation: anim-cont-foot 1s forwards;
-}
 
 @keyframes anim-cont-foot {
     0% {
@@ -104,4 +122,19 @@ footer {
     100% {
         transform: translateY(0);
     }
+}
+
+/* Здесь блоки */
+.block1 {
+    background: #313131;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.block2 {
+    background: #313131;
+    padding: 10px;
+    border-radius: 5px;
+
 }
