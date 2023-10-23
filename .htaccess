@@ -1,0 +1,24 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+<IfModule mod_rewrite.c>
+
+	# Убираем лишние слеши на конце URL
+	RewriteCond %{THE_REQUEST} //
+	RewriteRule ^(.*)$ https://%{HTTP_HOST}/$0 [R=301,L]
+
+	# Убираем index.php на конце
+	RewriteCond %{REQUEST_URI} ^(.*)/index\.php$
+	RewriteRule ^(.*)index\.php$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+	# Убираем index.html на конце
+	RewriteCond %{REQUEST_URI} ^(.*)/index\.html$
+	RewriteRule ^(.*)index\.html$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+	# Страницы пользовательских ошибок
+	ErrorDocument 400 /img/400.jpg
+	ErrorDocument 401 /img/401.jpg
+	ErrorDocument 403 /img/403.jpg
+	ErrorDocument 404 /img/404.jpg
+
+</IfModule>
