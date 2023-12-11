@@ -7,278 +7,194 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../dist/fakeLoader.min.css">
 
 
     <script src="js/bootstrap.js"></script>
-    <script src="js/resp-nav.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
+    <script src="/dist/fakeLoader.min.js"></script>
     <title>slznw</title>
 </head>
 
 <body>
 
-    <header class="topnav" id="myTopnav">
+    <div class="fakeLoader"> </div>
+    <script>
+        $.fakeLoader();
+    </script>
+
+    <header>
+
         <img src="img/slznwlogosite.png" height="30px" class="logo">
-        <a href="https://vk.com/brainfnzzd"><img src="img/icons/vk.png" height="25px"></a>
-        <a href="https://github.com/selezneww"><img src="img/icons/github.png" height="25px"></a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-            <a href="#changelog">Чейнджлог</a>
-            <a href="#third-project">Третий проект</a>
-            <a href="#second-project">Второй проект</a>
-            <a href="#first-project">Первый проект</a>
-            <a href="#about">Обо мне</a>
+        <br>
+        <br>
     </header>
-
     <div class="content">
-        <ul class="lightrope">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-        <div class="block1">
-            <div class="about">
-                <a name="about"></a>
-                Добро пожаловать на мой сайт, сайт <s>великого и могучего</s> slznw!
-                <br>
-                Сам я родом с планеты Земля (это в России, да!), делаю сайты, стараюсь делать красивый дизайн (но не
-                получается, брух). Играю в игры, слушаю музыку. Все. Далее информация утеряна :D Кстати, мой ник
-                происходит от моей фамилии, только без гласных.
-                <!--(Я собрал его сам, потому что я с детства самостоятельный.) -->
-                Вообще, я веселый и позитивный (нет) и люблю свое дело.
-                <br>
-                <br>
-                Тут вы можете найти мои проекты, а точнее ссылки на них и небольшое описание, что да как.
-                <br>
-                p.s Если вы нашли баг, то пожалуйста, сообщите о нем на <a
-                    href="mailto:selezsemn@yandex.ru&subject=Проблема (баг)">почту</a>
-            </div>
-        </div>
-        <br>
 
-        <div class="block2">
+        <div class="accord">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="block1">
+                    Добро пожаловать на мой сайт, сайт <s>великого и могучего</s> slznw!
+                    <br>
+                    Сам я родом с планеты Земля (это в России, да!), делаю сайты, стараюсь делать красивый
+                    дизайн
+                    (но не
+                    получается, брух). Играю в игры, слушаю музыку. Кстати, мой
+                    ник
+                    происходит от моей фамилии, только без гласных.
+                    <!--(Я собрал его сам, потому что я с детства самостоятельный.) -->
+                    Вообще, я веселый, люблю свое дело.
+                    <br>
+                    <br>
+                    Тут вы можете найти мои проекты, а точнее ссылки на них и небольшое описание, что да как.
+                    <br>
+                    p.s Если вы нашли баг, то пожалуйста, сообщите о нем на <a
+                        href="mailto:selezsemn@yandex.ru&subject=Проблема (баг)">почту</a>
+                    <br>
+                    Ниже находится список моих проектов, вы можете ознакомиться с ними:
+                </div>
+                <br>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            Первый проект
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Мой первый проект - дипломная работа. Разработал его за 3 месяца,
+                            больше
+                            бед было с сохранением/записью
+                            новостей. Но, все же я справился. Все работает, все ок! Конечно, во время разработки было
+                            ОЧЕНЬ
+                            много
+                            проблем, начиная от плохого фона, заканчивая его полной неработоспособностью
+                            <br>
+                            <br>
+                            <a href="https://selezneww.github.io/probable-waddle/">А вот и ссылка</a>
+                            <br>
+                            p.s Я его в итоге сдал на отлично, получил диплом :) Ну и после сдачи еще немного доработал.
+                            Теперь
+                            имеет хороший вид!
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            Второй проект
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Второй проект - собственный хостинг PaperHost. В данный момент он
+                            недоступен, но в скором времени будет
+                            отличный дешевый хостинг (я надеюсь) для простеньких
+                            проектов и, возможно, игровых серверов. В будущем перенесу вообще все свои
+                            проекты на него (сейчас большинство храню на гитхабе, как и этот сайт). Вам возможно очень
+                            интересно
+                            (нет),
+                            что же побудило
+                            меня на создание своего хостинга? Ответ прост:
+                            <br>
+                            1. Слишком высокие цены на хосты
+                            <br>
+                            2. Плохая
+                            работоспособность бесплатных хостов (долго загружаются, слишком большие ограничения и все в
+                            этом
+                            роде)
+                            <br>
+                            3. Желание дарить пользователям радость :)
+                            <br>
+                            <br>
+                            Здесь должна быть ссылка на сайт, но ее тут нет :)
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFour" aria-expanded="false"
+                            aria-controls="flush-collapseFour">
+                            Третий проект
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Третьим-же проектом можно считать этот сайт.
+                            <br>
+                            <br>
+                            Его я разрабатываю
+                            достаточно давно, с конца лета 2023 года. За это время появилось множество изменений,
+                            переработок и прочего. Изначально этот сайт представлял из себя просто каркас. На который
+                            позже
+                            я добавил CSS, JS, адаптивное меню (адаптивность в общем), добавил тексты всех проектов,
+                            залил
+                            все это на гитхаб... Короче, чего только не происходило! Но при этом, сайт до сих пор
+                            активно
+                            дорабатывается, ежедневно я придумываю разные идеи.
+                            <br>
+                            <br>
+                            Здесь находится чейнджлог этого сайта. Абсолютно бесполезная информация. Просто учет всех
+                            наработок за
+                            все время.
+                            <br>
+                            <br>
+                            5 декабря 2023
+                            <br>
+                            Спустя два месяца чуть подкорректировал сайт. Больших изменений нету пока-что. Добавлено
+                            "новогоднее
+                            настроение" в виде нескольких гирлянд. Надеюсь, вам понравится. Из планов - переписать сайт.
+                            Но это уже
+                            в новом году, времени нет) С новым годом!
+                            <br>
+                            <br>
+                            6 октября 2023
+                            <br>
+                            Почти месяц не было изменений (работа над другими проектами, учеба и тд). Добавил второй
+                            проект, третий
+                            готовится. Добавил блок-чейнджлог, перенес в него все коммиты из гитхаба. <s>Сайт доступен
+                                по <a href="https://slznw.mooo.com">новому домену</a> на моем хостинге.</s> (временно
+                            нет) К сайту
+                            теперь подключен
+                            Bootstrap
+                            5. Ссылки в навбаре теперь кликабельны. Также скоро в сайт будут вводится php элементы.
+                            <br>
+                            <br>
+                            19 августа 2023
+                            <br>
+                            Глобальные изменения
+                            <br>
+                            <br>
+                            17 августа 2023
+                            <br>
+                            адаптивное меню
+                            <br>
+                            <br>
+                            16 августа 2023
+                            <br>
+                            Сайт был создан!
+                            <br>
+                            Я добавил сайт, свое лого, крутые анимации, меню. Следующая доработка уже скоро
 
-            <div class="first-project">
-
-                <a name="first-project"></a>
-                Мой первый проект - дипломная работа. Разработал его за 3 месяца, больше бед было с сохранением/записью
-                новостей. Но, все же я справился. Все работает, все ок! Конечно, во время разработки было ОЧЕНЬ много
-                проблем, начиная от плохого фона, заканчивая его полной неработоспособностью
-                <br>
-                <br>
-                <a href="https://selezneww.github.io/probable-waddle/">А вот и ссылка</a>
-                <br>
-                p.s Я его в итоге сдал на отлично, получил диплом :) Ну и после сдачи еще немного доработал. Теперь
-                имеет хороший вид!
-            </div>
-        </div>
-        <br>
-        <ul class="lightrope">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-        <div class="block3">
-            <div class="second-project">
-                <a name="second-project"></a>
-                Второй проект - собственный хостинг PaperHost. В данный момент он недоступен, но в скором времени будет
-                отличный дешевый хостинг (я надеюсь) для простеньких
-                проектов и, возможно, игровых серверов. В будущем перенесу вообще все свои
-                проекты на него (сейчас большинство храню на гитхабе, как и этот сайт). Вам возможно очень интересно
-                (нет),
-                что же побудило
-                меня на создание своего хостинга? Ответ прост:
-                <br>
-                1. Слишком высокие цены на хосты
-                <br>
-                2. Плохая
-                работоспособность бесплатных хостов (долго загружаются, слишком большие ограничения и все в этом роде)
-                <br>
-                3. Желание дарить пользователям радость :)
-                <br>
-                <br>
-                Здесь должна быть ссылка на сайт, но ее тут нет :)
-
-            </div>
-        </div>
-        <br>
-        <div class="block4">
-            Не можете найти исполнителя? Нужен готовый сайт-визитка? Вы можете обратиться ко мне! Я постараюсь сделать
-            для
-            вас самый лучший сайт, который только можно придумать. Для заказа обращайтесь сюда: <a
-                href="https://t.me/POLAND_YEEE">@POLAND_YEEE</a>
-            <br>
-            P.s Это мой первый опыт создания сайтов на заказ. Пока-что бесплатно. (оплата приветствуется)
-        </div>
-        <br>
-        <ul class="lightrope">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-        <div class="block5">
-            <div class="changelog">
-                <a name="changelog"></a>
-                А здесь находится чейнджлог этого сайта. Абсолютно бесполезная информация. Просто учет.
-                <br>
-                <br>
-                5 декабря 2023
-                <br>
-                Спустя два месяца чуть подкорректировал сайт. Больших изменений нету пока-что. Добавлено "новогоднее
-                настроение" в виде нескольких гирлянд. Надеюсь, вам понравится. Из планов - переписать сайт. Но это уже
-                в новом году, времени нет) С новым годом!
-                <br>
-                <br>
-                6 октября 2023
-                <br>
-                Почти месяц не было изменений (работа над другими проектами, учеба и тд). Добавил второй проект, третий
-                готовится. Добавил блок-чейнджлог, перенес в него все коммиты из гитхаба. Сайт доступен по <a
-                    href="https://slznw.mooo.com">новому домену</a> на моем хостинге. К сайту теперь подключен Bootstrap
-                5. Ссылки в навбаре теперь кликабельны. Также скоро в сайт будут вводится php элементы.
-                <br>
-                <br>
-                19 августа 2023
-                <br>
-                Глобальные изменения
-                <br>
-                <br>
-                17 августа 2023
-                <br>
-                адаптивное меню
-                <br>
-                <br>
-                16 августа 2023
-                <br>
-                Сайт был создан!
-                <br>
-                Я добавил сайт, свое лого, крутые анимации, меню. Следующая доработка уже скоро
-
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
     <br>
 
     <footer>
-        slznw and his friends. 2023. made on planet Earth
+        slznw and his friends. 2023.
         <br>
-        Расположено на GitHub.
+        <a href="https://vk.com/brainfnzzd">VK</a> | <a href="https://github.com/selezneww">Github</a>
+
+
     </footer>
 
 </body>
